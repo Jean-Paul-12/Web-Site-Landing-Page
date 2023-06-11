@@ -252,7 +252,7 @@ body {
     padding-bottom: 29px;
 }
 
-.button__category{
+.button__category {
     text-decoration: none;
     font-family: var(--roboto-font);
     font-weight: 400;
@@ -261,7 +261,7 @@ body {
     color: var(--primary-color);
 }
 
-.button__category:hover{
+.button__category:hover {
     color: #007FFC;
 }
 
@@ -296,7 +296,8 @@ body {
 
 .section__item {
     background-size: cover;
-    height: 483px;
+    background-repeat: repeat;
+
     width: 100%;
     background-image: url(/assets/img/iPads.png);
 
@@ -306,13 +307,49 @@ body {
     background-image: url(/assets/img/Pro-vision.png);
 }
 
+.section__text {
+
+    font-family: var(--roboto-font);
+    color: var(--primary-background);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    padding: 323px 56px 64px 48px;
+}
+
 /*<--------------------ARTICLE.2-------------------->*/
 
 .article__box--price {
     gap: 30px;
 }
 
+.box__plan {
+    border-top: 2px solid #007FFC;
+}
 
+.box__plan--green {
+    border-top: 2px solid #52C29D;
+}
+
+.box__plan--red {
+    border-top: 2px solid #F04D5D;
+}
+
+.article__item--plan {
+    border: none;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+}
+
+.title__box {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--primary-color);
+}
 
 
 
