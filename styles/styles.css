@@ -322,58 +322,206 @@ body {
 
 .article__box--price {
     gap: 30px;
+    text-align: center;
 }
 
 .box__plan {
-    border-top: 2px solid #007FFC;
+    border-top: 3px solid #007FFC;
 }
 
 .box__plan--green {
-    border-top: 2px solid #52C29D;
+    border-top: 3px solid #52C29D;
 }
 
 .box__plan--red {
-    border-top: 2px solid #F04D5D;
+    border-top: 3px solid #F04D5D;
 }
 
 .article__item--plan {
     border: none;
     box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+    padding: 50px 47px 48px 48px;
 }
 
 .title__box {
     font-family: var(--roboto-font);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    text-align: center;
     letter-spacing: 0.2px;
     color: var(--primary-color);
 }
 
+.price__box {
+    font-family: var(--roboto-font);
+    color: #007FFC;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+}
+
+.price__box--green {
+    color: #52C29D;
+}
+
+.price__box--red {
+    color: #F04D5D;
+}
+
+.subtitle__box {
+    font-family: var(--roboto-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A7184;
+}
+
+.subtitle__box--description {
+    line-height: 28px;
+    color: #7690A8;
+    padding: 35px 0px 54px 0px;
+}
+
+.button__box {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    display: inline-flex;
+    width: 171px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.button__box:hover {
+    color: var(--primary-background);
+    background-color: var(--primary-color);
+}
 
 
 /*<--------------------ASIDE-------------------->*/
 
 .aside__container {
+    
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+}
 
-    padding: 200px 130px 200px 160px;
+.prueba{
+    background-image: url(/assets/img/Wallpaper-blue.png);
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    border-radius: 16px;
 }
 
 .aside__background {
     background-image: url(/assets/img/Wallpaper-blue.png);
-    background-size: contain;
+    mix-blend-mode: soft-light;
+    background-size: cover;
     width: 100%;
     height: 380px;
     border-radius: 16px;
+}
 
+.aside__text {
+    z-index: 1;
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: var(--primary-background);
+    padding: 97px 0px 19px 0px;
+}
+
+.aside__text--subtitle {
+    padding: 0px 0px 48px 0px;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button__aside_container {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.button__aside {
+    display: flex;
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 185px;
+    height: 48px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid var(--primary-background);
+    color: var(--primary-background);
+}
+
+.button__aside:hover{
+    background-color: var(--primary-background);
+    color: #183B56;
+
+}
+/*<--------------------FOOTER-------------------->*/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 89px 141px 70px 159px;
+}
+
+.container__footer {
+    display: flex;
+    
+}
+
+.header__title--footer{
+    justify-content: flex-start;
+}
+
+.header__title_img--footer{
+    width: 26px;
+    height: 26px;
+}
+
+.header__title_text--footer{
+    font-size: 35px;
+    line-height: 35px;
+    color: var(--primary-background);
+}
+
+.text__social_net {
+    width: 285px;
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    padding: 28px 0px 58px 0px;
+    color: var(--primary-background);
+    line-height: 28px;
 }
 
 
-/*<--------------------FOOTER-------------------->*/
 
+/*<--------------------COPYRIGHT-------------------->*/
 
-.container__footer {
-    background-color: var(--primary-color);
-    padding-left: 0px;
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    color: var(--primary-background);
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 140px;
 }
